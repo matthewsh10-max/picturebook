@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>互動繪本書架</title>
+<style>
+:root{--bg:#f6f1e7;--card:#fff;--ink:#2b2a27;--muted:#6f6a60;--accent:#2f8f83}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1c1a;--card:#2a2926;--ink:#f1ede4;--muted:#b3ad9f;--accent:#5cc2b3}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC",system-ui,sans-serif}
+main{max-width:960px;margin:0 auto;padding:40px 16px}
+h1{font-size:28px;margin:0 0 6px}p.sub{color:var(--muted);margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+a.book{display:block;background:var(--card);border-radius:14px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 2px 10px rgba(0,0,0,.08);transition:transform .2s}
+a.book:hover{transform:translateY(-4px)}a.book img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.info{padding:14px 16px}.info b{font-size:18px;display:block;margin-bottom:4px}.info span{color:var(--muted);font-size:14px}
+</style></head><body><main>
+<h1>互動繪本書架</h1><p class="sub">點書本開始閱讀，有聲音，建議開喇叭</p>
+<div class="grid">
+<a class="book" href="spirulina/"><img src="spirulina/cover.jpg" alt="小螺的藍綠湖封面"><div class="info"><b>小螺的藍綠湖</b><span>3D 互動繪本・螺旋藻成分故事・約 2 分鐘</span></div></a>
+</div></main></body></html>
